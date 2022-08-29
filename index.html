@@ -1,19 +1,148 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head>
-<meta charset="utf-8">
-<title>デジタル推進部</title>
-<meta name="viewport" content="width=device-width,initial-scale=1.0">
-<!--==============レイアウトを制御する独自のCSSを読み込み===============-->
-<link rel="stylesheet" type="text/css" href="http://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/move02/5-4/css/reset.css">
-<link rel="stylesheet" type="text/css" href="http://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/move02/5-4/css/5-4.css">
-</head>
-<body>
-<div id="particles-js"></div>
-<div id="wrapper">
-  <p>コンテンツが入ります<br>※使用したライブラリ<a href="https://vincentgarreau.com/particles.js/" target="_blank">https://vincentgarreau.com/particles.js/</a></p>
-<!--/wrapper--></div>
-<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-<script src="http://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/move02/5-4/js/5-4.js"></script>
-</body>
+  <head>
+    <meta charset="utf-8">
+    <title>デジタル推進部</title>
+    <meta name="description" content="テキストテキストテキストテキストテキストテキストテキストテキスト">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+    <header id="header">
+      <div class="inner wrapper">
+        <h1 class="logo">
+          <a href="index.html"><img src="img/logo.svg" alt="Web Entertainment Design"></a>
+        </h1>
+        <nav>
+          <ul>
+            <li><a href="#news">NEWS</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#business">BUSINESS</a></li>
+            <li><a href="#company">COMPANY</a></li>
+          </ul>
+        </nav>
+      </div>
+      <a class="contact" href="#">お問い合わせ</a>
+    </header>
+
+    <main>
+      <div id="mainvisual">
+        <img src="img/mainvisual.jpg" alt="">
+      </div>
+
+      <section id="news" class="wrapper">
+        <h2 class="section-title">
+          <span class="en">NEWS</span>
+          <span class="ja">ニュース</span>
+        </h2>
+
+        <ul class="list">
+          <li>
+            <div class="date-area">
+              <time datetime="2021-01-01">2021.01.01</time>
+              <span>NEWS</span>
+            </div>
+            <p>タイトルタイトルタイトルタイトル</p>
+          </li>
+          <li>
+            <div class="date-area">
+              <time datetime="2021-01-01">2021.01.01</time>
+              <span>PRESS</span>
+            </div>
+            <p>タイトルタイトルタイトルタイトル</p>
+          </li>
+          <li>
+            <div class="date-area">
+              <time datetime="2021-01-01">2021.01.01</time>
+              <span>NEWS</span>
+            </div>
+            <p>タイトルタイトルタイトルタイトル</p>
+          </li>
+        </ul>
+      </section>
+
+      <section id="about">
+        <div class="img">
+          <img src="img/about.jpg" alt="">
+        </div>
+
+        <div class="text">
+          <h2 class="section-title">
+            <span class="en">ABOUT</span>
+            <span class="ja">私たちについて</span>
+          </h2>
+          <p>
+            テキストテキストテキストテキストテキストテキスト
+            テキストテキストテキストテキストテキストテキスト
+          </p>
+          <p>
+            テキストテキストテキストテキストテキストテキスト
+            テキストテキストテキストテキストテキストテキスト
+          </p>
+          <p>
+            テキストテキストテキストテキストテキストテキスト
+            テキストテキストテキストテキストテキストテキスト
+          </p>
+        </div>
+      </section>
+
+      <section id="business" class="wrapper">
+        <h2 class="section-title">
+          <span class="en">BUSINESS</span>
+          <span class="ja">事業内容</span>
+        </h2>
+
+        <div class="flex">
+          <div class="left">
+            <div class="item">
+              <p class="title">Web制作・マーケティング</p>
+              <img src="img/business1.jpg" alt="">
+            </div>
+            <div class="item">
+              <p class="title">インターネットメディア事業</p>
+              <img src="img/business2.jpg" alt="">
+            </div>
+          </div>
+
+          <div class="right">
+            <div class="item">
+              <p class="title">プロモーション企画・制作</p>
+              <img src="img/business3.jpg" alt="">
+            </div>
+            <div class="item">
+              <p class="title">ソーシャル企画・運営</p>
+              <img src="img/business4.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </section>
+        <div class="img">
+          <img src="img/company.jpg" alt="">
+        </div>
+      </section>
+    </main>
+
+    <footer id="footer">
+      <div class="wrapper">
+        <div class="flex">
+          <div class="logo">
+            <img src="img/logo.svg" alt="Web Entertainment Design">
+          </div>
+          <div class="info">
+            <p>
+              Web Entertainment Design Inc.<br>
+              West Building 3F<br>
+              9-99 Sakuragaokacho Shibuya-ku<br>
+              Tokyo, Japan 150-0031
+            </p>
+            <p>T/99-9999-9999</p>
+          </div>
+        </div>
+        <p class="copyright">&copy; Web Entertainment Design Inc.</p>
+      </div>
+    </footer>
+  </body>
 </html>
