@@ -136,7 +136,7 @@ li {
     padding:0 10px;     
 }
 
-#header li:second-child::after{
+#header li:last-child::befor{
     content:'/';
     padding:0 10px;     
 }
