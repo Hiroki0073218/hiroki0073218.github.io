@@ -1,17 +1,21 @@
+/*===========================================================*/
+/*印象編 5-4 幾何学模様*/
+/*===========================================================*/
+
 particlesJS("particles-js",{
 	"particles":{
 		"number":{
-			"value":38,//この数値を変更すると幾何学模様の数が増減できる
+			"value":38,/*この数値を変更すると幾何学模様の数が増減できる*/
 			"density":{
 				"enable":true,
 				"value_area":800
 			}
 		},
 		"color":{
-			"value":"#ffffff"//色
+			"value":"#11a0ad"/*色*/
 		},
 		"shape":{
-			"type":"polygon",//形状はpolygonを指定
+			"type":"polygon",/*形状はpolygonを指定*/
 			"stroke":{
 				"width":0,
 			},
@@ -46,18 +50,18 @@ particlesJS("particles-js",{
 		"line_linked":{
 			"enable":true,
 			"distance":150,
-			"color":"#ffffff",
+			"color":"#11a0ad",
 			"opacity":0.6,
 			"width":1
 		},
 		"move":{
 			"enable":true,
-			"speed":6,//この数値を小さくするとゆっくりな動きになる
-			"direction":"none",//方向指定なし
-			"random":false,//動きはランダムにしない
-			"straight":false,//動きをとどめない
-			"out_mode":"out",//画面の外に出るように描写
-			"bounce":false,//跳ね返りなし
+			"speed":6,/*この数値を小さくするとゆっくりな動きになる*/
+			"direction":"none",/*方向指定なし*/
+			"random":false,/*動きはランダムにしない*/
+			"straight":false,/*動きをとどめない*/
+			"out_mode":"out",/*画面の外に出るように描写*/
+			"bounce":false,/*跳ね返りなし*/
 			"attract":{
 				"enable":false,
 				"rotateX":600,
