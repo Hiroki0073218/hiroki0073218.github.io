@@ -136,6 +136,11 @@ li {
     padding:0 10px;     
 }
 
+#header li:second-child::after{
+    content:'/';
+    padding:0 10px;     
+}
+
 #header .float3{
     border-radius: 30px;
 }
