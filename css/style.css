@@ -131,7 +131,7 @@ li {
     display: inline-block;
 }
 
-#header li:first-child::after{
+#header li:nth-child(-n+2)::after{
     content:'/';
     padding:0 10px;     
 }
