@@ -132,7 +132,7 @@ li {
 }
 
 #header li:nth-child(-n+2)::after{
-    content:'/';
+    content:' /';
     padding:0 10px;     
 }
 
