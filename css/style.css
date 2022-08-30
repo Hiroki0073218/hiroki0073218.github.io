@@ -131,7 +131,12 @@ li {
     display: inline-block;
 }
 
-#header li:first-child{
+#header li:first-child::after{
+    content:'/';
+    padding:0 10px;     
+}
+
+#header dl:first-child::after{
     content:'/';
     padding:0 10px;     
 }
