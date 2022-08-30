@@ -477,4 +477,10 @@ SP
   #footer .flex .logo {
     margin-bottom: 10px;
   }
+  
+  #waveCanvas{
+    position: absolute;
+    bottom:0;
+    z-index: -1;
+  }
 }
