@@ -131,12 +131,7 @@ li {
     display: inline-block;
 }
 
-#header li:first-child::after{
-    content:'/';
-    padding:0 10px;     
-}
-
-#header li:last-child::befor{
+#header li:first-child{
     content:'/';
     padding:0 10px;     
 }
