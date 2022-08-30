@@ -5,12 +5,19 @@
     <title>デジタル推進部</title>
     <meta name="description" content="テキストテキストテキストテキストテキストテキストテキストテキスト">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    
     <link rel="shortcut icon" href="img/fuso.ico">
     <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
     <link rel="stylesheet" href="css/style.css">
+    
+    <!--==============レイアウトを制御する独自のCSSを読み込み===============-->
+    <link rel="stylesheet" href="css/wapper.css">
+    
   </head>
 
   <body>
+   <div id="particles-js"></div>
+   <div id="wrapper">
     <header id="header">
       <div class="inner wrapper">
         <h1 class="logo">
@@ -164,5 +171,11 @@
           </div>
         </div>
     </footer>
+   <!--/wrapper--></div>
+   
+   <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+   <!--自作のJS-->
+   <script src="js/geometric.js"></script>
+   
   </body>
 </html>
