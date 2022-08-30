@@ -133,7 +133,7 @@ li {
 
 #header li:first-child::after{
     content:'/';
-    padding:0 100px;     
+    padding:0 10px;     
 }
 
 #header .float3{
